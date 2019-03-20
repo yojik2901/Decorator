@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="decorators\BorderDecorator.cs" />
+    <Compile Include="decorators\ColorDecorator.cs" />
+    <Compile Include="decorators\Decorator.cs" />
+    <Compile Include="objects\Component.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="objects\TestView.cs" />
+    <Compile Include="objects\Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
